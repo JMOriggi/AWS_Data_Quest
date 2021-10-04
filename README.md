@@ -2,9 +2,9 @@
 
 ## My submission files
 - S3 data link:
-- Source code part1 and 2: [a link](https://github.com/JMOriggi/Rearc_data_quest/main/Part3_Data_Analytics.ipynb)
-- Source code in .ipynb file format and results (Step 3)
-- Source code of the data pipeline infrastructure (Step 4)
+- Source code part 1 and 2: [Part1_2_S3_Datasets_API.py](https://github.com/JMOriggi/Rearc_data_quest/main/Part3_Data_Analytics.ipynb)
+- Source code part 3: [Part3_Data_Analytics.ipynb](https://github.com/JMOriggi/Rearc_data_quest/main/Part3_Data_Analytics.ipynb) 
+- Source code part 4: of the  [Part4_Data_Pipeline Infrastructure.py](https://github.com/JMOriggi/Rearc_data_quest/main/Part3_Data_Analytics.ipynb) 
 
 
 ## Future developments
