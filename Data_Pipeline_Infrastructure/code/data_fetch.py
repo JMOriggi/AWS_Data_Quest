@@ -17,8 +17,8 @@ FOLDER_URL = 'pr/'
 BUCKET = 'rearcdataquest'
 
 def get_s3_session():
-    AWS_KEY_ID = 'AKIASUGGJUJLPP2BEQVA'
-    AWS_SECRET = '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'
+    AWS_KEY_ID = ''
+    AWS_SECRET = ''
     session = Session(aws_access_key_id=AWS_KEY_ID, aws_secret_access_key=AWS_SECRET)
     s3 = session.resource('s3')
     return s3
