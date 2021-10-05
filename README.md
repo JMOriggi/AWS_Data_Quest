@@ -1,4 +1,4 @@
-# AWS_data_quest
+# AWS_Data_Quest
 
 ## My submission files
 - **S3 data links**: 
