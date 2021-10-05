@@ -10,5 +10,8 @@
 - **Source code part 4 (using terraform)**: [Data_Pipeline Infrastructure](https://github.com/JMOriggi/Rearc_data_quest/blob/main/Data_Pipeline_Infrastructure/) 
 
 
-## Considerations
-
+## Comments
+For part4, tasks 3 and 4 are only partially completed.
+Difficulties encountered: 
+- The sqs queue with s3 notifications is not implemented (a problem in creating the "aws_s3_bucket_notification" resource).
+- Dependencies for python modules not tested on AWS.
