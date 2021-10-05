@@ -1,4 +1,4 @@
-# Rearc_data_quest
+# AWS_data_quest
 
 ## My submission files
 - **S3 data links**: 
