@@ -22,7 +22,7 @@ resource "aws_s3_bucket_public_access_block" "bucket" {
 }
 resource "aws_s3_bucket_policy" "bucket" {
   bucket = aws_s3_bucket.bucket.id
-  policy = policy = "${file("policies/bucket_policy.json")}"
+  policy = "${file("policies/bucket_policy.json")}"
 }
 resource "aws_s3_bucket_object" "directory" {
   bucket       = "${aws_s3_bucket.bucket.id}"
