@@ -37,11 +37,11 @@ def update_s3(d_web, d_s3):
     for el in d_web:
         if (el not in d_s3) or (d_web[el] > d_s3[el]):
             content = requests.get(BASE_URL+EXT_URL+el).text
-            response = s3.meta.client.put_object(Bucket=bucket, Body=bytes(content, encoding='utf-8'), Key=FOLDER_URL+el)
+            response = s3.meta.client.put_object(Bucket=BUCKET, Body=bytes(content, encoding='utf-8'), Key=FOLDER_URL+el)
     # Delete files no more present in web
     for el in d_s3:
         if el not in d_web:
-            response = s3.meta.client.delete_object(Bucket=bucket, Key=FOLDER_URL+el)
+            response = s3.meta.client.delete_object(Bucket=BUCKET, Key=FOLDER_URL+el)
 
 def get_web_data():
     res = requests.get(BASE_URL+EXT_URL)  
