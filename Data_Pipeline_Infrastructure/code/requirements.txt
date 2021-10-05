@@ -1,0 +1,6 @@
+boto3
+requests
+io
+pandas
+bs4
+json
