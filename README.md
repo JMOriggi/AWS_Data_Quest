@@ -11,7 +11,9 @@
 
 
 ## Comments
-For part4, tasks 3 and 4 are only partially completed.
-Difficulties encountered: 
+This was the first time for me to experience an S3, IAM, and Lambda configuration on AWS. I found the assignments very interesting. Some components of the final deployment (part4) still need to be fixed, since I couldn't debug all the issues in the reasonable time required to complete the assignment (around 4h of work and documentation reading). Overall I'm happy with the code solution I have implemented here. I look forward to hearing your feedback and suggestions on how to fix and improve my solutions.
+
+Missing parts: 
 - The sqs queue with s3 notifications is not implemented (a problem in creating the "aws_s3_bucket_notification" resource).
 - Dependencies for python modules not tested on AWS.
+- Exception handling for the python methods.
