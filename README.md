@@ -13,7 +13,7 @@
 ## Comments
 This was my first time handling an S3 and Lambda configuration on AWS. I found the assignments very engaging. Some components of the final deployment (part4 only) haven't been completed, since I couldn't debug all the issues in the reasonable time required to complete the assignment (around 4h of work and documentation reading). Overall, I'm satisfied with the results I have achieved. I look forward to hearing your feedback and suggestions on how to fix and improve my implementation.
 
-Missing parts: 
+Missing components: 
 - The sqs queue with s3 notifications is not implemented (a problem in creating the "aws_s3_bucket_notification" resource).
 - Dependencies for python modules not tested on AWS.
 - Exception handling for the python methods.
