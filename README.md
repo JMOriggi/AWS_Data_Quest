@@ -17,3 +17,4 @@ Missing parts:
 - The sqs queue with s3 notifications is not implemented (a problem in creating the "aws_s3_bucket_notification" resource).
 - Dependencies for python modules not tested on AWS.
 - Exception handling for the python methods.
+- Methods and functions comments.
